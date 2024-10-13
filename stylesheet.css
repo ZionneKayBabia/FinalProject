@@ -1,0 +1,117 @@
+
+h1{
+	text-align: center;
+	letter-spacing: 2px;
+	font-family: Georgia;
+	text-indent: 20px;
+	color: Brown;
+}
+
+h5{
+	text-align: center;
+	font-family: Georgia;
+	color: Black;
+}
+
+
+h4{
+	text-indent: 450px;
+	color: black;
+	word-spacing: 200px;
+	padding: 10px;	
+	
+}
+
+
+#first{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+
+}
+
+#second{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+	
+}
+
+
+#yay{
+	vertical-align: Top;
+	clear: left;
+	margin: 30px;
+	text-indent: 50px;
+	color: Brown;
+	font-size: 50px;
+}
+
+ul{
+	text-index: 60px;
+	font-size: 20px;
+	clear:left;
+	line-height: 40px;
+
+}
+
+li{
+	font-weight: bold;
+}
+
+
+p{
+	clear: right;
+	margin: 30px;
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+body{
+	background-color: #FFE4C4;
+	
+}
+
+.vl {
+  border-left: 6px solid Brown;
+  height: 220px;
+  float: left;
+  clear: left;
+}
+
+h2{
+	text-align: center:
+	margin-top: 40px;
+	text-indent: 200px;
+	color: Brown;
+
+}
+
+#hello{
+	text-indent: 200px;
+	clear: right;
+	
+}
+
+#third{
+	
+	text-align: center:
+	margin-top: 40px;
+	text-indent: 600px;
+	color: Brown;
+}
+
+#fourth{
+	margin:30px;
+}
+
+
+
+
+
+
+
