@@ -1,4 +1,3 @@
-
 h1{
 	text-align: center;
 	letter-spacing: 2px;
@@ -108,6 +107,30 @@ h2{
 #fourth{
 	margin:30px;
 }
+
+a:link {
+  color: red;
+}
+
+
+a:visited {
+  color: brown;
+}
+
+
+a:hover {
+  color: pink;
+}
+
+
+a:active {
+  color: orange;
+}
+
+
+
+
+
 
 
 
