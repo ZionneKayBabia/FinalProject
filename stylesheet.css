@@ -14,11 +14,14 @@ h5{
 
 
 h4{
-	text-indent: 450px;
+	text-align: center;
 	color: black;
 	word-spacing: 200px;
 	padding: 10px;	
 	
+}
+h4:hover{
+	 transform: scale(1.25);
 }
 
 
@@ -126,6 +129,24 @@ a:hover {
 a:active {
   color: orange;
 }
+
+footer:hover{
+	transform: scale(.75);
+	transition-property: scale
+	transition-duration: 0.3s;
+	transition-timing-funtion: ease-out;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
