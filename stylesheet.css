@@ -12,14 +12,32 @@ h5{
 	color: Black;
 }
 
+h4{
+	padding-left: 300px;
+	padding-top: 5px;
+	color: Black;
+	font-family: Georgia;
+}
 
 #hi{
 	text-align: center;
 	color: black;
-	padding-left: 580px;	
-	
+	padding-left: 580px;
+	transform: scale(2);	
+}
+#ah{
+	text-align: center;
+	color: black;
+	padding-left: 280px;
 	
 }
+#ho{
+	text-align: center;
+	color: black;
+	padding-left: 250px;
+	
+}
+
 
 #yo{
 	text-align: center;
@@ -53,30 +71,42 @@ h5{
 
 
 #yay{
-	vertical-align: Top;
-	clear: left;
-	margin: 30px;
-	text-indent: 50px;
+	clear: right;
 	color: Brown;
 	font-size: 50px;
 }
 
-ul{
+#luh{
 	text-index: 60px;
 	font-size: 20px;
-	clear:left;
+	clear: right;
 	line-height: 40px;
+	
+}
 
+#uhm{
+	text-index: 60px;
+	font-size: 20px;
+	clear: left;
+	line-height: 40px;
+	
 }
 
 li{
-	font-weight: bold;
+	font-weight: bold;	
+	
+}
+ul{
+	text-index: 60px;
+	font-size: 20px;
+	line-height: 40px;
+		
+	
 }
 
 
 p{
 	clear: right;
-	margin: 30px;
 	font-size: 20px;
 	vertical-align: middle;
 }
@@ -84,13 +114,6 @@ p{
 body{
 	background-color: #FFE4C4;
 	
-}
-
-.vl {
-  border-left: 6px solid Brown;
-  height: 220px;
-  float: left;
-  clear: left;
 }
 
 h2{
@@ -119,13 +142,19 @@ h2{
 	margin:30px;
 }
 
+#jk{
+	clear:left;
+	color: Brown;
+	font-size: 50px;
+}
+
 #hi:link {
   color: red;
 }
 
 
 #hi:visited {
-  color: brown;
+  color: orange;
 }
 
 
@@ -144,7 +173,7 @@ h2{
 
 
 #yo:visited {
-  color: brown;
+  color: orange;
 }
 
 
@@ -163,7 +192,7 @@ h2{
 
 
 #hoy:visited {
-  color: brown;
+  color: orange;
 }
 
 
@@ -176,14 +205,108 @@ h2{
   color: orange;
 }
 
-
-
-footer:hover{
-	transform: scale(.75);
-	transition-property: scale
-	transition-duration: 0.3s;
-	transition-timing-funtion: ease-out;
+#ah:link {
+  color: red;
 }
+
+
+#ah:visited {
+  color: Orange;
+}
+
+
+#ah:hover {
+  color: pink;
+}
+
+
+#ah:active {
+  color: orange;
+}
+
+#ho:link {
+  color: red;
+}
+
+
+#ho:visited {
+  color: Orange;
+}
+
+
+#ho:hover {
+  color: pink;
+}
+
+
+#ho:active {
+  color: orange;
+}
+
+audio{
+	padding-top: 20px;
+}
+
+
+video:hover{
+	transform: scale(1.25);
+	etransition-duration: 0.5s;
+	transition-timing-funtion: ease-in-out;
+}
+
+
+.arrow {
+	background: url('images/arrowssprite.jpg') no-repeat -190px -62px;
+	width: 62px;
+	height: 63px;
+	margin-left:600px;
+	
+}
+.yes{
+	margin-left: 200px;
+	
+}
+
+.audio{
+	margin-left:100px;
+	
+}
+
+video{
+	float:left;
+	clear:right;
+	margin-left: 60px;
+	margin-right: 10px;
+}
+
+#hut{
+	clear:right;
+	float:left;
+	margin: 30px;
+}
+#matter{
+	float:right;
+	clear:left:
+	margin:25px;
+}
+
+#jk{
+	clear:right;
+}
+
+a[target="_blank"] {
+text-decoration-line: underline;
+}
+
+*::selection{
+	background-color: DarkSalmon;
+}
+
+footer{
+	background-image: url("images/taketwo.avif");
+	background-size: cover;
+}
+
 
 
 
