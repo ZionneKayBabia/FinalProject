@@ -13,17 +13,25 @@ h5{
 }
 
 
-h4{
+#hi{
 	text-align: center;
 	color: black;
-	word-spacing: 200px;
-	padding: 10px;	
+	padding-left: 580px;	
+	
 	
 }
-h4:hover{
-	 transform: scale(1.25);
+
+#yo{
+	text-align: center;
+	color: black;
+	padding-left : 100px;	
 }
 
+#hoy{
+	
+	color: black;
+	padding-left: 100px;	
+}
 
 #first{
 	margin-left: 20px;
@@ -111,24 +119,64 @@ h2{
 	margin:30px;
 }
 
-a:link {
+#hi:link {
   color: red;
 }
 
 
-a:visited {
+#hi:visited {
   color: brown;
 }
 
 
-a:hover {
+#hi:hover {
   color: pink;
 }
 
 
-a:active {
+#hi:active {
   color: orange;
 }
+
+#yo:link {
+  color: red;
+}
+
+
+#yo:visited {
+  color: brown;
+}
+
+
+#yo:hover {
+  color: pink;
+}
+
+
+#yo:active {
+  color: orange;
+}
+
+#hoy:link {
+  color: red;
+}
+
+
+#hoy:visited {
+  color: brown;
+}
+
+
+#hoy:hover {
+  color: pink;
+}
+
+
+#hoy:active {
+  color: orange;
+}
+
+
 
 footer:hover{
 	transform: scale(.75);
@@ -136,6 +184,12 @@ footer:hover{
 	transition-duration: 0.3s;
 	transition-timing-funtion: ease-out;
 }
+
+
+
+
+
+
 
 
 
