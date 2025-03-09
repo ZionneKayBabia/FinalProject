@@ -1,0 +1,1 @@
+To start my quiz, simply press the "Start" button, then answer. After answering, you may press the "Submit" button. From there, you will view the correct/wrong answers and your total score. Thank You and Enjoy!
