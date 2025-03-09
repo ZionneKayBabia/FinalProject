@@ -307,6 +307,34 @@ footer{
 	background-size: cover;
 }
 
+h3{
+	text-align: center;
+	color: #ff6347;
+}
+
+button{
+	position:absolute;
+	left: 50%;
+	 transform: translateX(-70%);
+}
+
+.b{
+	margin-left: 640px;
+}
+
+ .correct {
+            background-color: #4CAF50; /* Green for correct answers */
+        }
+ .incorrect {
+            background-color: #f44336; /* Red for incorrect answers */
+        }
+.quiz-container{
+	text-align: center;
+	
+	line-height: 2;
+	font-family: Garmond;
+}
+
 
 
 
