@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 15px;
+  color: #922b21;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #f9ebea;
+  color: #333;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #c0392b;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.profile-data {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-align: left;
+  justify-content: center;
+}
+
+.logo {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+}
+
+
+body{
+	background-color: #FFE4C4;
+}
+
+.radio-group {
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+h1{
+	color: Brown;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  background-color: #f2d7d5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  color: #333;
+}
+
+.profile-data{
+	background-color: #f2d7d5;
+}
+
+.profile-data strong {
+  color: #c0392b; 
+}
+
+.back-home {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.back-home .back {
+  text-decoration: none;
+  color: #cd6155;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.back-home .back:hover {
+  text-decoration: underline;
+}
+
+
+
+

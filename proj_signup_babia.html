@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Voices For Equality - Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+  <img src="../images/logo.jpg" alt="Campaign Logo" class="logo">
+  <div>
+    <h1>Voices For Equality - Sign up</h1>
+    <p>A call to unity that emphasizes shared humanity over racial differences.</p>
+  </div>
+
+</header>
+  <form id="signupForm">
+    <label>First Name <br>
+      <input type="text" id="firstName">
+      <span id="firstNameError" class="error"></span>
+    </label>
+
+    <label>Last Name <br>
+      <input type="text" id="lastName">
+      <span id="lastNameError" class="error"></span>
+    </label>
+
+<label>Sex <br>
+  <div class="radio-group">
+    <label><input type="radio" name="sex" value="Male"> Male</label>
+    <label><input type="radio" name="sex" value="Female"> Female</label>
+    <label><input type="radio" name="sex" value="Prefer not to say"> Prefer not to say</label>
+  </div>
+  <span id="sexError" class="error"></span>
+</label>
+
+    <label>Email Address <br>
+      <input type="text" id="email">
+      <span id="emailError" class="error"></span>
+    </label>
+
+    <label>Password <br>
+      <input type="password" id="password">
+      <span id="passwordError" class="error"></span>
+    </label>
+
+    <label>Contact Number<br>
+      <input type="text" id="contact">
+    </label>
+
+    <label>Why you're supporting our campaign *<br>
+      <textarea id="why"></textarea>
+      <span id="whyError" class="error"></span>
+    </label>
+
+    <button type="button" onclick="handleSignup()">Submit SignUp Forms</button>
+  </form>
+
+<footer>
+	<div class="back-home">
+  		<a class="back" href="../html/home.html" target="_blank">Back To Home Page</a>
+	</div>
+</footer>
+</body>
+</html>
