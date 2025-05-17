@@ -22,7 +22,7 @@ h4{
 #hi{
 	text-align: center;
 	color: black;
-	padding-left: 580px;
+	padding-left: 460px;
 	transform: scale(2);	
 }
 #ah{
@@ -37,6 +37,12 @@ h4{
 	padding-left: 250px;
 	
 }
+#hey{
+	
+	color: black;
+	padding-left: 90px;	
+}
+
 
 
 #yo{
@@ -224,24 +230,44 @@ h2{
   color: orange;
 }
 
-#ho:link {
+#hey:link {
   color: red;
 }
 
 
-#ho:visited {
+#hey:visited {
   color: Orange;
 }
 
+
+#hey:hover {
+  color: pink;
+}
+
+
+#hey:active {
+  color: orange;
+}
+
+#hey:visited {
+  color: Orange;
+}
+
+#hey:link {
+  color: red;
+}
 
 #ho:hover {
   color: pink;
 }
 
-
+#h0:visited {
+  color: Orange;
+}
 #ho:active {
   color: orange;
 }
+
 
 audio{
 	padding-top: 20px;
@@ -334,6 +360,51 @@ button{
 	line-height: 2;
 	font-family: Garmond;
 }
+
+.back-home {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.back-home .back {
+  text-decoration: none;
+  color: #cd6155;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.back-home .back:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
